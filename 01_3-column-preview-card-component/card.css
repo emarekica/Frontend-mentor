@@ -84,6 +84,32 @@ button {
   max-width: fit-content;
 }
 
+a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid #f2f2f2;
+}
+
+a > button:hover {
+  color: #f2f2f2;
+}
+
+#sedan-button {
+  color: #e38826;
+}
+
+#suv-button {
+  color: #006970;
+}
+
+#luxury-button {
+  color: #004241;
+}
+
 footer {
   text-align: center;
   margin-top: 3em;
@@ -93,12 +119,11 @@ footer {
   text-decoration: none;
 }
 
-a {
-  color: #004241;
+.attribution > a {
   text-decoration: none;
+  color: #004241;
   font-weight: 700;
 }
-
 /* media query */
 
 @media (max-width: 975px) {
