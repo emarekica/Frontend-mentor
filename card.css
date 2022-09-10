@@ -108,9 +108,9 @@ footer {
 }
 /* media query */
 
-@media (max-width: 1060px) {
+@media (max-width: 1030px) {
   section {
-    height: 50vh;
+    height: 48vh;
   }
 }
 
